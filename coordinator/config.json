@@ -1,0 +1,84 @@
+{
+  "channel": 6224,
+  "modem": "top",
+  "krist": {
+    "endpoint": "https://krist.dev",
+    "key": "",
+    "address": ""
+  },
+  "storage": [
+    "sc-goodies:diamond_barrel_11314",
+    "sc-goodies:diamond_barrel_11315",
+    "sc-goodies:diamond_barrel_11316",
+    "sc-goodies:diamond_barrel_11317"
+  ],
+  "crafter": "turtle_11101",
+  "enderStorage": "ender_storage_7328",
+  "publicEnderStorage": "ender_storage_7390",
+  "enderStorageConnections": {
+    "880": ["minecraft:white_wool"],
+    "001": ["minecraft:orange_wool"],
+    "002": ["minecraft:magenta_wool"],
+    "003": ["minecraft:light_blue_wool"],
+    "004": ["minecraft:yellow_wool"],
+    "005": ["minecraft:lime_wool"],
+    "006": ["minecraft:pink_wool"],
+    "007": ["minecraft:gray_wool"],
+    "008": ["minecraft:light_gray_wool"],
+    "009": ["minecraft:cyan_wool"],
+    "00a": ["minecraft:purple_wool"],
+    "00b": ["minecraft:blue_wool"],
+    "00c": ["minecraft:brown_wool"],
+    "00d": ["minecraft:green_wool"],
+    "00e": ["minecraft:red_wool"],
+    "00f": ["minecraft:black_wool"],
+    "808": ["minecraft:white_dye"],
+    "0f0": ["minecraft:black_dye"],
+    "0d0": ["minecraft:green_dye"],
+    "0b0": ["minecraft:blue_dye"],
+    "0c0": ["minecraft:brown_dye"],
+    "040": ["minecraft:yellow_dye"],
+    "0e0": ["minecraft:red_dye"],
+    "088": ["minecraft:glass"],
+    "1c1": ["minecraft:terracotta"],
+    "418": ["minecraft:sand"],
+    "87f": ["minecraft:gravel"]
+  },
+  "stock": [
+    {
+      "item": "minecraft:%s_wool",
+      "colors": "all",
+      "nameSidebar": "Wool",
+      "nameSingle": "%s Wool",
+      "namePlural": "%s Wool"
+    },
+    {
+      "item": "minecraft:%s_dye",
+      "colors": "all",
+      "nameSidebar": "Dyes",
+      "nameSingle": "%s Dye",
+      "namePlural": "%s Dyes"
+    },
+    {
+      "item": "minecraft:%s_concrete",
+      "colors": "all",
+      "nameSidebar": "Concrete",
+      "nameSingle": "%s Concrete",
+      "namePlural": "%s Concrete"
+    }
+  ],
+  "minimums": {
+    "minecraft:*_wool": 512,
+    "minecraft:white_dye": 1024,
+    "minecraft:black_dye": 1024,
+    "minecraft:red_dye": 512,
+    "minecraft:yellow_dye": 512,
+    "minecraft:blue_dye": 512,
+    "minecraft:brown_dye": 512,
+    "minecraft:green_dye": 512,
+    "minecraft:sand": 2048,
+    "minecraft:gravel": 2048,
+    "minecraft:glass": 2048,
+    "minecraft:terracotta": 2048
+  }
+}

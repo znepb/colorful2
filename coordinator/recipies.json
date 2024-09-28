@@ -1,0 +1,103 @@
+{
+  "minecraft:orange_dye": {
+    "type": "shapeless",
+    "ingredients": {
+      "minecraft:red_dye": 1,
+      "minecraft:yellow_dye": 1
+    },
+    "result": 2
+  },
+  "minecraft:magenta_dye": {
+    "type": "shapeless",
+    "ingredients": {
+      "minecraft:blue_dye": 1,
+      "minecraft:red_dye": 2,
+      "minecraft:white_dye": 1
+    },
+    "result": 4
+  },
+  "minecraft:light_blue_dye": {
+    "type": "shapeless",
+    "ingredients": {
+      "minecraft:blue_dye": 1,
+      "minecraft:white_dye": 1
+    },
+    "result": 2
+  },
+  "minecraft:lime_dye": {
+    "type": "shapeless",
+    "ingredients": {
+      "minecraft:green_dye": 1,
+      "minecraft:white_dye": 1
+    },
+    "result": 2
+  },
+  "minecraft:pink_dye": {
+    "type": "shapeless",
+    "ingredients": {
+      "minecraft:red_dye": 1,
+      "minecraft:white_dye": 1
+    },
+    "result": 2
+  },
+  "minecraft:gray_dye": {
+    "type": "shapeless",
+    "ingredients": {
+      "minecraft:black_dye": 1,
+      "minecraft:white_dye": 1
+    },
+    "result": 2
+  },
+  "minecraft:light_gray_dye": {
+    "type": "shapeless",
+    "ingredients": {
+      "minecraft:black_dye": 1,
+      "minecraft:white_dye": 2
+    },
+    "result": 3
+  },
+  "minecraft:cyan_dye": {
+    "type": "shapeless",
+    "ingredients": {
+      "minecraft:blue_dye": 1,
+      "minecraft:green_dye": 1
+    },
+    "result": 2
+  },
+  "minecraft:purple_dye" : {
+    "type": "shapeless",
+    "ingredients": {
+      "minecraft:blue_dye": 1,
+      "minecraft:red_dye": 1
+    },
+    "result": 2
+  },
+  "minecraft:([%a_]+)_concrete_powder": {
+    "type": "shapeless",
+    "dyed": true,
+    "ingredients": {
+      "minecraft:sand": 4,
+      "minecraft:gravel": 4,
+      "minecraft:%s_dye": 1
+    },
+    "result": 8
+  },
+  "minecraft:([%a_]+)_concrete$": {
+    "dyed": true,
+    "ingredient": "minecraft:%s_concrete_powder",
+    "type": "concrete",
+    "result": 1
+  },
+  "sc-peripherals:ink_cartridge": {
+    "ingredients": {
+      "sc-peripherals:empty_ink_cartridge": 1,
+      "minecraft:cyan_dye": 1,
+      "minecraft:magenta_dye": 1,
+      "minecraft:yellow_dye": 1,
+      "minecraft:black_dye": 1
+    },
+    "craftOneByOne": true,
+    "type": "shapeless",
+    "result": 1
+  }
+}
